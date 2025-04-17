@@ -105,6 +105,7 @@ p {
   display:flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   flex: 1;
   min-width: 300px;
   padding: 20px;
@@ -228,4 +229,10 @@ p {
 .menu__page {
   display: flex;
   justify-self: center;
+}
+
+.wireframe-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
